@@ -1,0 +1,6 @@
+@import './base.css';
+
+.text-pink-550 {
+    --tw-text-opacity:1;
+    color: rgb(228, 56, 136);
+}
