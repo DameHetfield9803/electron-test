@@ -5,7 +5,7 @@ function App(): JSX.Element {
   const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
 
   return (
-    <div className="container flex-auto min-w-full min-h-screen text-center mx-auto py-3 px-2 bg-gradient-to-r from-black to-slate-950">
+    <div className="container flex-auto min-w-full min-h-screen text-center mx-auto py-3 px-2 bg-gradient-to-r from-black to-slate-900">
       <img alt="logo" className="mx-auto py-2 z-20" width={170} src={electronLogo} />
       <h1 className="mb-[4.75px]"><strong className='text-5xl bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 text-transparent bg-clip-text font-light'>Powered by electron-vite</strong></h1>
       <div className="text-2xl text-pink-500">
